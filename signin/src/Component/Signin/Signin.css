@@ -1,0 +1,161 @@
+.signin-page{
+    width: 1000px;
+    margin: 100px auto;
+}
+.signin-container-box{
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+}
+.right-side{
+    flex-basis: 50%;
+}
+.right-side img{
+    width: 100%;
+}
+.left-side{
+    flex-basis: 50%;
+}
+.form-container{
+    margin: auto;
+    width: 70%;
+    padding:10px;
+}
+.form-welcome-title{
+    font-size: 30px;
+    font-weight: 400;
+}
+.welcome-text{
+    color: #636364;
+}
+form{
+    margin-top:20px ;
+}
+.form-label{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 3px;
+}
+form #input-field{
+    height: 41px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background: #fbfbfb;
+    border: 1px solid rgba(208, 208, 208, 0.6);
+    box-shadow: rgba(208, 209, 209, 0.2) 0px 8px 24px;
+}
+.form-help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.signin{
+    background: #EA454C;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+    border-radius: 12px;
+    height: 41px;
+    cursor: pointer;
+}
+.google-login{
+    background:#fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 12px;
+    height: 41px;
+    border: 1px solid rgba(208, 208, 208, 0.6);
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.noaccount{
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+.signup{
+    color: #EA454C;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1024px) {
+    .signin-page{
+        margin: 50px auto;
+        width: 90%;
+        padding: 10px;
+        transition: 0.5s all;
+    }
+    .form-container{
+        padding:20px 30px;
+        width: 100%;
+    }
+    
+    .form-welcome-title{
+        font-size: 26px;
+    }
+    form{
+        margin-top:5px ;
+    }
+    form #input-field{
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .signin-page{
+        transition: 0.5s all;
+        padding: 10px;
+    }
+    .left-side{
+        transition: 0.5s all;
+    }
+    .form-container{
+        padding:20px 30px;
+        width: 100%;
+    }
+    .form-welcome-title{
+        font-size: 24px;
+    }
+    form{
+        margin-top:5px ;
+    }
+    form #input-field{
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width:768px) {
+    .signin-page{
+        width: 80%;
+        padding: 10px;
+        transition: 0.5s all;
+    }
+    .left-side{
+        flex-basis: 100%;
+    }
+    .right-side{
+        display: none;
+    }
+    .form-container{
+        padding:30px;
+        width: 100%;
+    }
+    .form-welcome-title{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:480px) {
+    .signin-page{
+        width: 100%;
+    }
+}
